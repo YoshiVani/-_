@@ -1,3 +1,11 @@
+/*
+ * 実行方法（Windows のコマンドプロンプトの場合）：
+ *   gcc decipher.c -o 任意の実行ファイル名.exe 
+ *   任意の実行ファイル名.exe 
+ *
+ * ※ 詳細な環境や補足情報は README.md をご参照ください。 
+ */
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
