@@ -2,11 +2,9 @@
 #include <math.h>
 int main(){
 	int n,i;
-	double r1,r2,FV1,R2,PV1,PV2,TPV1,NeR2,TFV1=0.0,TR2=0.0,sub1;
+	double r1,FV1,PV1,PV2,TPV1,TFV1=0.0,sub1;
 	puts("");
-	puts("Please choose 1 or 2");
-	puts("1 : calculate PV");
-	puts("2 : calculate NPV");
+	puts("Please choose 1");
 	printf("\nYou : ");
 	scanf("%d",&n);
 	if (n==1){
@@ -34,10 +32,7 @@ int main(){
 	printf("~~~~~~~~~~~~~~~~~~~~");
 	puts("");
 	}
-	}
-	if(n==2){puts("r = ");//利益と費用、その比較を求める
-	scanf("%f",&r2);//利子率入力
-	}
+}
 	return 0;
 }
 
